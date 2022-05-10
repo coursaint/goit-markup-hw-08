@@ -1,0 +1,36 @@
+.bottom {
+  background: var(--fifth-color-dgrey);
+  margin: 0 auto;
+  padding-bottom: 60px;
+
+  &__box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__center {
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+  }
+
+  &__right {
+    margin-left: 65px;
+  }
+
+  &__join {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 72px;
+    margin-bottom: 20px;
+  }
+}

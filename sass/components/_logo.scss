@@ -1,0 +1,18 @@
+.logo {
+  color: var(--main-color-bla);
+  padding-right: 93px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  &--web {
+    color: var(--secondary-color-blu);
+  }
+
+  &--bottom {
+    color: var(--third-color-whi);
+    padding: 60px 0 20px;
+  }
+}

@@ -1,0 +1,39 @@
+.lorem {
+  padding-bottom: 0px;
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &__box {
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--four-color-gre);
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
