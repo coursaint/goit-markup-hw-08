@@ -1,11 +1,14 @@
 .logo {
   color: var(--main-color-bla);
+  //desktop
   padding-right: 93px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
   text-decoration: none;
+  //mobile
+  text-align: center;
 
   &--web {
     color: var(--secondary-color-blu);

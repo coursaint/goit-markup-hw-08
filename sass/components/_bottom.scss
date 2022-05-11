@@ -18,12 +18,14 @@
   &__center {
     display: flex;
     flex-direction: column;
-    margin-left: 65px;
+    // desktop
+    // margin-left: 65px;
   }
 
-  &__right {
-    margin-left: 65px;
-  }
+  // desktop
+  // &__right {
+  //   margin-left: 65px;
+  // }
 
   &__join {
     font-weight: 700;

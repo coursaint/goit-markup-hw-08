@@ -84,6 +84,7 @@ img {
   font-size: 26px;
   letter-spacing: 0.03em;
   text-decoration: none;
+  text-align: center;
 }
 
 .logo--web {
@@ -114,11 +115,6 @@ img {
 .bottom__center {
   display: flex;
   flex-direction: column;
-  margin-left: 65px;
-}
-
-.bottom__right {
-  margin-left: 65px;
 }
 
 .bottom__join {
@@ -410,6 +406,8 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   border: 1px solid black;
+  justify-content: center;
+  gap: 30px;
 }
 
 .client__link {
