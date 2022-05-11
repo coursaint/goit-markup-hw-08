@@ -51,7 +51,7 @@ img {
   max-width: 450px;
   margin: 0 auto;
   padding: 0 15px;
-  boreder: 1px solid black;
+  border: 1px solid orange;
 }
 
 .section {
@@ -115,6 +115,7 @@ img {
 .bottom__center {
   display: flex;
   flex-direction: column;
+  border: 1px solid blue;
 }
 
 .bottom__join {
@@ -124,8 +125,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 72px;
   margin-bottom: 20px;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .navigation {
@@ -215,6 +217,10 @@ img {
 
 .address__bottom--grey {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.adress__item {
+  text-align: center;
 }
 
 .adress__item:not(:first-of-type) {
@@ -434,6 +440,8 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
+  border: 1px solid red;
+  text-align: center;
 }
 
 .newsletter__join {
@@ -444,12 +452,13 @@ img {
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  margin-top: 72px;
+  border: 1px solid green;
+  margin-top: 60px;
+  width: 100%;
 }
 
 .newsletter__lbl {
-  width: 358px;
-  height: 50px;
+  padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   border-radius: 4px;
@@ -487,6 +496,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 30px;
 }
 
 .newsletter__icon {

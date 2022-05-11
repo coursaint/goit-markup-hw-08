@@ -48,6 +48,11 @@
   }
 }
 
+//mobile
+.adress__item {
+  text-align: center;
+}
+
 .adress__item:not(:first-of-type) {
   margin-top: 9px;
 }

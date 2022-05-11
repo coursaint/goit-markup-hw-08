@@ -20,6 +20,7 @@
     flex-direction: column;
     // desktop
     // margin-left: 65px;
+    border: 1px solid blue;
   }
 
   // desktop
@@ -34,7 +35,11 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
-    margin-top: 72px;
+    //desktop
+    // margin-top: 72px;
     margin-bottom: 20px;
+    //mobile
+    text-align: center;
+    margin-top: 60px;
   }
 }
