@@ -1,7 +1,10 @@
 .newsletter {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  // desktop
+  // flex-direction: row;
+  // align-items: flex-end;
+  align-items: center;
+  flex-direction: column;
 
   &__join {
     font-weight: 700;

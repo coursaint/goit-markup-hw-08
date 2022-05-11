@@ -5,7 +5,9 @@
 
   &__box {
     display: flex;
-    flex-direction: row;
+    // desktop
+    // flex-direction: row;
+    flex-direction: column;
   }
 
   &__left {
