@@ -1,4 +1,6 @@
 .address__top {
+  // display: flex;
+  display: none;
   font-weight: 500;
   font-size: 14px;
   font-style: normal;
@@ -6,7 +8,6 @@
   letter-spacing: 0.02em;
   color: var(--four-color-gre);
   text-decoration: none;
-  display: flex;
   align-items: center;
   transition-property: color, fill;
   transition-duration: 250ms;
