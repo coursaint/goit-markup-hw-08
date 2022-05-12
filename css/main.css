@@ -74,6 +74,10 @@ img {
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
   display: flex;
+  border: 1px solid blue;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -152,9 +156,19 @@ img {
   display: none;
 }
 
+.navigation__mobile {
+  display: flex;
+  flex-direction: column;
+}
+
 .navigation__list {
   display: flex;
   align-items: center;
+}
+
+.navigation__list--mobile {
+  display: flex;
+  flex-direction: column;
 }
 
 .navigation__item {
@@ -867,5 +881,39 @@ img {
 
 .checkbox__policy {
   color: var(--secondary-color-blu);
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--third-color-whi);
+  padding: 48px 40px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.mobile-menu__button {
+  background-color: transparent;
+  border-style: none;
+}
+
+.mobile-menu__icon {
+  fill: var(--main-color-bla);
+}
+
+.mobile-menu__button:hover .mobile-menu__icon {
+  fill: var(--secondary-color-blu);
+}
+
+.mobile-menu__button:focus .mobile-menu__icon {
+  fill: var(--secondary-color-blu);
 }
 /*# sourceMappingURL=main.css.map */

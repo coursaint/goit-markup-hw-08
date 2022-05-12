@@ -1,0 +1,33 @@
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--third-color-whi);
+  padding: 48px 40px;
+
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.mobile-menu__button {
+  background-color: transparent;
+  border-style: none;
+}
+
+.mobile-menu__icon {
+  fill: var(--main-color-bla);
+}
+.mobile-menu__button:hover .mobile-menu__icon {
+  fill: var(--secondary-color-blu);
+}
+
+.mobile-menu__button:focus .mobile-menu__icon {
+  fill: var(--secondary-color-blu);
+}
