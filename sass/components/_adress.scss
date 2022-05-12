@@ -57,14 +57,17 @@
   margin-top: 9px;
 }
 
-.adress__item--mobiletel {
+.adress__item--mobile-tel {
   font-weight: 500;
   font-size: 28px;
-  line-height: 40px;
   letter-spacing: 0.02em;
 }
 
 .adress__item--mobile-mail {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
 }
 .adress__mobile--blue {
   color: var(--secondary-color-blu);
