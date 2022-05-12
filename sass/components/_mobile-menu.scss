@@ -1,7 +1,6 @@
 .mobile-menu {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   position: fixed;
   z-index: 100;
   left: 0;
@@ -15,6 +14,12 @@
   visibility: visible;
   pointer-events: auto;
 }
+
+// .is-open {
+//   opacity: 0;
+//   visibility: hidden;
+//   pointer-events: none;
+// }
 
 .mobile-menu__button {
   background-color: transparent;
@@ -30,4 +35,19 @@
 
 .mobile-menu__button:focus .mobile-menu__icon {
   fill: var(--secondary-color-blu);
+}
+
+.mobile-close__icon {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 30px;
+  height: 30px;
+  border-style: none;
+  background-color: var(--third-color-whi);
+  cursor: pointer;
+}
+
+.mobile-menu__list {
+  margin-bottom: auto;
 }

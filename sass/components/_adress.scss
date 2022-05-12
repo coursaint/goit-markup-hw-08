@@ -56,3 +56,19 @@
 .adress__item:not(:first-of-type) {
   margin-top: 9px;
 }
+
+.adress__item--mobiletel {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+
+.adress__item--mobile-mail {
+}
+.adress__mobile--blue {
+  color: var(--secondary-color-blu);
+}
+.adress__mobile--grey {
+  color: var(--four-color-gre);
+}

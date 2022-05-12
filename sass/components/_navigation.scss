@@ -15,6 +15,7 @@
   &__list--mobile {
     display: flex;
     flex-direction: column;
+    margin-bottom: 250px;
   }
 
   &__item {
@@ -38,6 +39,16 @@
     &:focus {
       color: var(--secondary-color-blu);
     }
+  }
+
+  &__link--mobile {
+    text-decoration: none;
+    color: var(--main-color-bla);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.175;
+    letter-spacing: 0.02em;
   }
 
   &__underline::after {
