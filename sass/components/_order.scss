@@ -33,7 +33,7 @@
   &__title {
     width: 696px;
     font-weight: 900;
-    font-size: 44px;
+    font-size: 26px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
@@ -80,5 +80,10 @@
   .order {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/background/order-desktop@2x.jpg');
+  }
+}
+@media screen and (min-width: 1200px) {
+  .order__title {
+    font-size: 44px;
   }
 }

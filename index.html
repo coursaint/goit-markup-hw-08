@@ -45,7 +45,7 @@
   <main>
     <section class="order">
       <div class="container section order__effect">
-        <h1 id="agencja" class="order__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <h1 id="agencja" class="order__title">EFEKTYWNE ROZWIĄZANIA <br /> DLA WASZEGO BIZNESU</h1>
         <button type="button" class="order__button" data-modal-open>ZAMÓW USŁUGĘ</button>
       </div>
     </section>
@@ -105,10 +105,10 @@
         </li>
       </ul>
     </section>
-    <section class="section container">
+    <section class="section container about">
       <h2 class="headline">Czym się zajmujemy</h2>
 
-      <ul class="about list">
+      <ul class="about__list list">
         <li class="about__item">
           <img src="images/img1.jpg" alt="klawiatura tablet laptop" width="370" height="294" />
           <p class="about__description">Aplikacje komputerowe</p>
@@ -128,7 +128,21 @@
         <h2 class="headline">Nasz Zespół</h2>
         <ul class="team__list list">
           <li class="team__person">
-            <img src="images/osoba1.jpg" alt="zdjęcie John Doe" width="270" height="260" />
+            <picture>
+              <source srcset="
+                    images/team/person1mobile-450.jpg 450w,
+                    images/team/person1mobile-900.jpg 900w" media="(max-width: 767px)"
+                sizes="(min-width: 450px) 450px, 100vw" />
+              <source srcset="
+                    images/team/person1tablet-354.jpg 354w,
+                    images/team/person1tablet-708.jpg 708w
+                  " media="(min-width: 768px) and (max-width: 1199px)" sizes="(min-width: 354px) 354px, 100vw" />
+              <source srcset="
+                    images/team/person1desktop-270.jpg 270w,
+                    images/team/person1desktop-540.jpg 540w
+                  " media="(min-width: 1200px)" sizes="(min-width: 270px) 270px, 100vw" />
+              <img src="images/team/person1mobile-450.jpg" alt="zdjecie John Doe" />
+            </picture>
             <p class="team__name">John Doe</p>
             <p class="team__job">Product Designer</p>
             <ul class="social">
@@ -151,7 +165,23 @@
             </ul>
           </li>
           <li class="team__person">
-            <img src="images/osoba2.jpg" alt="zdjęcie John Doe" width="270" height="260" />
+            <picture>
+              <source srcset="
+                    images/team/person2mobile-450.jpg 450w,
+                    images/team/person2mobile-900.jpg 900w
+                  " media="(max-width: 767px)" sizes="(min-width: 450px) 450px, 100vw" />
+              <source srcset="
+                    images/team/person2tablet-354.jpg 354w,
+                    images/team/person2tablet-708.jpg 708w
+                  " media="(min-width: 768px) and (max-width: 1199px)" sizes="(min-width: 354px) 354px, 100vw" />
+              <source srcset="
+                    images/team/person2desktop-270.jpg 270w,
+                    images/team/person2desktop-540.jpg 540w
+                  " media="(min-width: 1199px)" sizes="(min-width: 270px) 270px, 100vw" />
+              <img src="images/team/person2mobile-450.jpg" alt="zdjecie John Doe" />
+            </picture>
+
+
             <p class="team__name">John Doe</p>
             <p class="team__job">Frontend Developer</p>
             <ul class="social">
@@ -174,7 +204,22 @@
             </ul>
           </li>
           <li class="team__person">
-            <img src="images/osoba3.jpg" alt="zdjęcie John Doe" width="270" height="260" />
+            <picture>
+              <source srcset="
+                    images/team/person3mobile-450.jpg 450w,
+                    images/team/person3mobile-900.jpg 900w
+                  " media="(max-width: 767px)" sizes="(min-width: 450px) 450px, 100vw" />
+              <source srcset="
+                    images/team/person3tablet-354.jpg 354w,
+                    images/team/person3tablet-708.jpg 708w
+                  " media="(min-width: 768px) and (max-width: 1199px)" sizes="(min-width: 354px) 354px, 100vw" />
+              <source srcset="
+                    images/team/person3desktop-270.jpg 270w,
+                    images/team/person3desktop-540.jpg 540w
+                  " media="(min-width: 1199px)" sizes="(min-width: 270px) 270px, 100vw" />
+              <img src="images/team/person3mobile-450.jpg" alt="zdjecie John Doe" />
+            </picture>
+
             <p class="team__name">John Doe</p>
             <p class="team__job">Marketing</p>
             <ul class="social">
@@ -197,7 +242,23 @@
             </ul>
           </li>
           <li class="team__person">
-            <img src="images/osoba4.jpg" alt="zdjęcie John Doe" width="270" height="260" />
+            <picture>
+              <source srcset="
+                    images/team/person4mobile-450.jpg 450w,
+                    images/team/person4mobile-900.jpg 900w
+                  " media="(max-width: 767px)" sizes="(min-width: 450px) 450px, 100vw" />
+              <source srcset="
+                    images/team/person4tablet-354.jpg 354w,
+                    images/team/person4tablet-708.jpg 708w
+                  " media="(min-width: 768px) and (max-width: 1199px)" sizes="(min-width: 354px) 354px, 100vw" />
+              <source srcset="
+                    images/team/person4desktop-270.jpg 270w,
+                    images/team/person4desktop-540.jpg 540w
+                  " media="(min-width: 1199px)" sizes="(min-width: 270px) 270px, 100vw" />
+              <img src="images/team/person4mobile-450.jpg" alt="zdjecie John Doe" />
+            </picture>
+
+
             <p class="team__name">John Doe</p>
             <p class="team__job">UI Designer</p>
             <ul class="social">
