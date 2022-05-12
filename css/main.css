@@ -78,6 +78,13 @@ img {
   align-items: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 .logo {
   color: var(--main-color-bla);
   padding-right: 93px;
