@@ -49,7 +49,6 @@ img {
 .container {
   max-width: 100%;
   padding: 0 15px;
-  border: 1px solid orange;
 }
 
 .section {
@@ -72,7 +71,6 @@ img {
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
   display: flex;
-  border: 1px solid blue;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -123,7 +121,6 @@ img {
 .bottom__center {
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
 }
 
 .bottom__join {
@@ -420,7 +417,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
 }
 
 .lorem__box {
@@ -557,7 +553,6 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 1px solid red;
   text-align: center;
 }
 
@@ -569,7 +564,6 @@ img {
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  border: 1px solid green;
   margin-top: 60px;
   width: 100%;
 }
