@@ -24,6 +24,9 @@
   .logo {
     padding-right: 83px;
   }
+  .logo.logo--bottom {
+    padding-right: 0px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .logo {
