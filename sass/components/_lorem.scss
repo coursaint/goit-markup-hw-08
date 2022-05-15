@@ -39,20 +39,45 @@
     color: var(--four-color-gre);
   }
 
+  &__item {
+    flex-basis: calc(100% / 2 - 30px);
+  }
+
   // &__item:not(:last-child) {
   //   margin-right: 30px;
   // }
 }
 
-@media screen and (min-width: 768px) {
+// @media screen and (min-width: 768px) {
+//   .lorem__list {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     align-items: center;
+//   }
+// }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .lorem__list {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    // flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  }
+  .lorem__item {
+    flex-basis: calc(100% / 2);
+  }
+  .lorem__item {
+    margin-bottom: 30px;
+  }
+  .lorem__item:nth-child(2n + 1) {
+    padding-right: 15px;
+  }
+  .lorem__item:nth-child(2n) {
+    padding-left: 15px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .lorem__item:not(:last-child) {
     margin-right: 30px;
