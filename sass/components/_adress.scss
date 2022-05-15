@@ -23,6 +23,10 @@
     margin-right: 50px;
     margin-left: auto;
   }
+  &--list{
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .adress__icon {
@@ -74,4 +78,10 @@
 }
 .adress__mobile--grey {
   color: var(--four-color-gre);
+}
+
+@media screen and (min-width: 1200px) {
+  .address__top {
+    display: flex;
+  }
 }

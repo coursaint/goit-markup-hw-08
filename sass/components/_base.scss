@@ -2,7 +2,6 @@ body {
   font-family: var(--main-font);
   color: var(--main-color-bla);
   max-width: 1600px;
-  // margin: 0 auto;
 }
 
 h1,
@@ -35,4 +34,10 @@ img {
 
 .link {
   text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    margin: 0 auto;
+  }
 }

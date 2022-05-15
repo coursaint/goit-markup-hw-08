@@ -70,3 +70,9 @@
   font-size: 18px;
   color: var(--secondary-color-blu);
 }
+
+@media screen and (min-width: 768px) {
+  .mobile-menu__button {
+    display: none;
+  }
+}
