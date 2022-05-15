@@ -36,6 +36,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -177,6 +179,12 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bottom__tablet {
+    display: flex;
   }
 }
 
@@ -565,6 +573,15 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .lorem__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .team {
   background-color: #f5f4fa;
 }
@@ -609,7 +626,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .team__list {
     flex-direction: row;
     justify-content: center;
@@ -819,6 +836,12 @@ img {
   margin-right: 8px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  .menu {
+    flex-wrap: wrap;
+  }
+}
+
 .portfolio {
   display: flex;
   flex-direction: row;
@@ -834,10 +857,6 @@ img {
 
 .portfolio__item:hover, .portfolio__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.portfolio__item:not(:nth-child(3n)) {
-  margin-right: 30px;
 }
 
 .portfolio__img-box {
@@ -886,6 +905,41 @@ img {
   padding-left: 24px;
   padding-bottom: 20px;
   color: var(--four-color-gre);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .portfolio {
+    justify-content: center;
+    flex-basis: 50%;
+    padding: 0 50px;
+  }
+  .portfolio__item:not(:nth-child(3n)) {
+    margin-right: 0px;
+  }
+  .portfolio__item:not(:nth-child(2n)) {
+    margin-right: 30px;
+  }
+  .portfolio__item:last-child {
+    margin-right: 384px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio__item:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1199px) {
+  .portfolio {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 380px) {
+  .portfolio__hidden-text {
+    font-size: 15px;
+  }
 }
 
 .backdrop {

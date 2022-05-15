@@ -35,6 +35,8 @@
 @media screen and (min-width: 1200px) {
   .bottom__box {
     flex-direction: row;
+    // justify-content: center;
+    // align-items: center;
   }
   .bottom__center {
     margin-left: 65px;
@@ -53,5 +55,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bottom__tablet {
+    display: flex;
   }
 }

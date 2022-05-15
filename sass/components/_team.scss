@@ -46,14 +46,14 @@
     // flex-basis: calc(100% / 2);
     gap: 30px;
   }
+}
 
-  @media screen and (min-width: 1200px) {
-    .team__list {
-      flex-direction: row;
-      justify-content: center;
-    }
-    .team__person:not(:last-child) {
-      margin-right: 30px;
-    }
+@media screen and (min-width: 1200px) {
+  .team__list {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .team__person:not(:last-child) {
+    margin-right: 30px;
   }
 }
