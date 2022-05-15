@@ -5,8 +5,6 @@
 
   &__box {
     display: flex;
-    // desktop
-    // flex-direction: row;
     flex-direction: column;
   }
 
@@ -18,15 +16,7 @@
   &__center {
     display: flex;
     flex-direction: column;
-    // desktop
-    // margin-left: 65px;
-    // border: 1px solid blue;
   }
-
-  // desktop
-  // &__right {
-  //   margin-left: 65px;
-  // }
 
   &__join {
     font-weight: 700;
@@ -35,11 +25,26 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
-    //desktop
-    // margin-top: 72px;
     margin-bottom: 20px;
     //mobile
     text-align: center;
     margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bottom__box {
+    flex-direction: row;
+  }
+  .bottom__center {
+    margin-left: 65px;
+  }
+
+  .bottom__right {
+    margin-left: 65px;
+  }
+  .bottom__join {
+    margin-top: 72px;
+    text-align: left;
   }
 }
