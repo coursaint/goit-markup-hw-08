@@ -43,7 +43,7 @@
   .team__list {
     flex-direction: row;
     flex-wrap: wrap;
-    // flex-basis: calc(100% / 2);
+    justify-content: center;
     gap: 30px;
   }
 }

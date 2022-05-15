@@ -622,6 +622,7 @@ img {
   .team__list {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
   }
 }
