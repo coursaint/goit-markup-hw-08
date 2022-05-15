@@ -496,6 +496,21 @@ img {
   color: var(--four-color-gre);
 }
 
+@media screen and (min-width: 768px) {
+  .lorem__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .lorem__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
 .team {
   background-color: #f5f4fa;
 }
