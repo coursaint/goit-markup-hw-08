@@ -169,6 +169,14 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .bottom__tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
 .navigation {
   display: none;
 }
@@ -682,6 +690,16 @@ img {
   }
   .client__item:not(:last-child) {
     margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .client__list {
+    justify-content: space-between;
+  }
+  .client__link {
+    width: 226px;
+    height: 92px;
   }
 }
 
