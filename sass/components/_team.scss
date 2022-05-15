@@ -18,9 +18,9 @@
     border-radius: 0px 0px 4px 4px;
 
     // desktop
-    // &:not(:last-child) {
-    //   margin-right: 30px;
-    // }
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 
   &__name {
@@ -40,5 +40,15 @@
     color: var(--four-color-gre);
     text-align: center;
     margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team__list {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .team__person:not(:last-child) {
+    margin-right: 30px;
   }
 }
