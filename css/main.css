@@ -109,6 +109,12 @@ img {
   padding: 60px 0 20px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .logo {
+    padding-right: 83px;
+  }
+}
+
 .bottom {
   background: var(--fifth-color-dgrey);
   padding-bottom: 60px;
@@ -297,9 +303,28 @@ img {
   color: var(--four-color-gre);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .address__top {
     display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .address__top--list {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .address__top--list {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .address__top--mail {
+    margin-right: 15px;
+    margin-bottom: 10px;
   }
 }
 
