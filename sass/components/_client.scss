@@ -7,16 +7,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid black;
     //mobile
     justify-content: center;
     gap: 30px;
   }
 
   // desktop
-  // &__item:not(:last-child) {
-  //   margin-right: 30px;
-  // }
 
   &__link {
     display: flex;
@@ -37,5 +33,15 @@
       fill: var(--secondary-color-blu);
       border: 1px solid var(--secondary-color-blu);
     }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .client__list {
+    gap: unset;
+    flex-wrap: nowrap;
+  }
+  .client__item:not(:last-child) {
+    margin-right: 30px;
   }
 }
