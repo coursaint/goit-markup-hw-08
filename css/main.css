@@ -618,11 +618,16 @@ img {
   margin-bottom: 16px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .team__list {
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team__list {
+    flex-wrap: wrap;
     gap: 30px;
   }
   .team__person:nth-child(2n) {
@@ -630,13 +635,10 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .team__list {
-    flex-direction: row;
-    justify-content: center;
-  }
+@media screen and (min-width: 1199px) {
   .team__person:not(:last-child) {
     margin-right: 30px;
+    flex-wrap: nowrap;
   }
 }
 
