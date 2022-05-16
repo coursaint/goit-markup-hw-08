@@ -46,6 +46,9 @@
     justify-content: center;
     gap: 30px;
   }
+  .team__person:nth-child(2n) {
+    margin-right: 48px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
