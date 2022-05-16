@@ -54,4 +54,8 @@
     width: 226px;
     height: 92px;
   }
+
+  .client__item {
+    flex-basis: calc(100% / 4);
+  }
 }

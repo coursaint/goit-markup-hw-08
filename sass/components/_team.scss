@@ -51,13 +51,23 @@
     gap: 30px;
   }
   .team__person:nth-child(2n) {
-    margin-right: 48px;
+    // margin-right: 50px;
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1199px) {
+  .team__person:nth-child(2n) {
+    margin-right: 50px;
   }
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .team__person:not(:last-child) {
     margin-right: 30px;
     flex-wrap: nowrap;
+  }
+  .team__list {
+    flex-wrap: nowrap;
+    gap: 0px;
   }
 }
