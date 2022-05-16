@@ -893,6 +893,7 @@ img {
 .portfolio__img-box {
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .portfolio__hidden-text {
