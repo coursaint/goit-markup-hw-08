@@ -50,6 +50,10 @@
     letter-spacing: 0.02em;
   }
 
+  &__link--color {
+    color: var(--secondary-color-blu);
+  }
+
   &__underline::after {
     position: absolute;
     content: '';
