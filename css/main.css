@@ -141,6 +141,12 @@ img {
   flex-direction: column;
 }
 
+.bottom__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .bottom__center {
   display: flex;
   flex-direction: column;
@@ -809,6 +815,18 @@ img {
 
 .newsletter__icon {
   margin-left: 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .newsletter {
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .newsletter {
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
