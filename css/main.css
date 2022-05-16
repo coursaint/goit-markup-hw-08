@@ -882,13 +882,17 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.portfolio__item:hover .portfolio__hidden-text {
+  transform: translateY(0%);
+}
+
+.portfolio__item:focus .portfolio__hidden-text {
+  transform: translateY(0%);
+}
+
 .portfolio__img-box {
   position: relative;
   overflow: hidden;
-}
-
-.portfolio__img-box:hover .portfolio__hidden-text {
-  transform: translateY(0%);
 }
 
 .portfolio__hidden-text {
